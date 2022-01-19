@@ -16,7 +16,9 @@ function App() {
   };
 
   return (
-    <Fragment>  {/* <React.Fragment> */}
+    <Fragment>
+      {" "}
+      {/* <React.Fragment> */}
       <AddUser onAddUser={addUserHandler} />
       <UsersList users={usersList} />
     </Fragment> /* </React.Fragment> */
